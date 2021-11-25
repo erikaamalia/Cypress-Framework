@@ -24,3 +24,9 @@ jobs:
         uses: cypress-io/github-action@v2
         with:
           spec: cypress/integration/Tasya/*
+          
+      - name: Erika Testing
+        uses: cypress-io/github-action@v2
+        with:
+          spec: cypress/integration/Erika/*
+          
